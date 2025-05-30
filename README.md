@@ -37,4 +37,4 @@ Just open `index.html` in your browser.
 
 ## 📝 License
 
-MIT
+📝(LICENSE)
