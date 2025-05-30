@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter the Gungeon: Random Character Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1 id="toc">Enter the Gungeon: Character Randomizer</h1>
+
+  <label class="custom-checkbox">
+    <input type="checkbox" id="paradox">
+    <span class="checkmark"></span>
+    <span class="label-text" id="label-paradox">Paradox</span> 
+  </label>
+
+  <label class="custom-checkbox">
+    <input type="checkbox" id="bullet">
+    <span class="checkmark"></span>
+    <span class="label-text" id="label-bullet">Bullet</span> 
+  </label>
+
+  <label class="custom-checkbox">
+    <input type="checkbox" id="robot">
+    <span class="checkmark"></span> 
+    <span class="label-text" id="label-robot">Robot</span> 
+  </label>
+
+  <label class="custom-checkbox">
+    <input type="checkbox" id="gunslinger">
+    <span class="checkmark"></span>
+    <span class="label-text" id="label-gunslinger">Gunslinger</span>
+  </label>
+
+
+  
+  <div id="result-container">
+    <div id="result-overlay">
+      <div id="result"></div>
+      <div id="gif-wrapper">
+        <img id="character-gif" src="" alt="Character Animation">
+      </div>
+    </div>
+  </div>
+
+  <button id="randomize" class="ui-button" onclick="getRandom()">Randomize!</button>
+  <button id="lang-toggle" class="ui-button" onclick="toggleLanguage()">ENG</button>
+  <script src="scripts/change_language.js"></script>
+  <script src="scripts/random.js"></script>
+</body>
+  </html>
