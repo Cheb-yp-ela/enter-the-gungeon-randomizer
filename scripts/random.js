@@ -5,18 +5,14 @@ const modes = {
   gunslinger: ["Gunslinger"],
 };
 
-
 // Начальные переменные
 let pool = [];
 let used = [];
 
 // Перемешиваем массив (фишка — не идеально, но для простоты ок)
-function shuffle(array) {
-  return array.sort(() => Math.random() - 0.5);
-}
+const shuffle = (array) => array.sort(() => Math.random() - 0.5);
 
-function getRandom() {
-
+const getRandom = () => {
   const resultElement = document.getElementById("result");
 
   // Если пул пустой — создаём заново
@@ -25,12 +21,12 @@ function getRandom() {
     let combinedOptions = ['Convict', 'Hunter', 'Marine', 'Pilot'];
 
     // Добавляем активные режимы
-    for (let key in modes) {
+    Object.keys(modes).forEach((key) => {
       const checkbox = document.getElementById(key);
-      if (checkbox && checkbox.checked) {
+      if (checkbox?.checked) {
         combinedOptions = combinedOptions.concat(modes[key]);
       }
-    }
+    });
 
     pool = shuffle(combinedOptions);
     used = []; // Сброс использованных
@@ -49,7 +45,7 @@ function getRandom() {
 
   const resultLabel = translationsUI.resultLabel
     ? translationsUI.resultLabel[lang]
-    : "Result";  
+    : "Result";
 
   resultElement.textContent = `${resultLabel}: ${translatedCharacter}`;
   const gifPath = `img/${next.toLowerCase()}.webp`;
@@ -59,4 +55,4 @@ function getRandom() {
   // Показать блок с результатом и гифкой
   const resultOverlay = document.getElementById("result-overlay");
   resultOverlay.classList.add("show");
-}
+};
