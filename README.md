@@ -26,7 +26,7 @@ https://cheb-yp-ela.github.io/enter-the-gungeon-randomizer/
 │   └── random.js
 └── img/
     ├── background.jpg
-│   └── character_gifs.webp
+    └── character_gifs.webp
 ```
 
 ## 🚀 How to Run
