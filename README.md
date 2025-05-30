@@ -33,8 +33,12 @@ https://cheb-yp-ela.github.io/enter-the-gungeon-randomizer/
 
 ## 🚀 How to Run
 
-Just open `index.html` in your browser.
+1. Open it `index.html ` in the browser
+2. Choose additional characters if desired.
+3. Click "Randomize!"
+
+---
 
 ## 📝 License
 
-📝(LICENSE)
+📝[LICENSE](LICENSE)
