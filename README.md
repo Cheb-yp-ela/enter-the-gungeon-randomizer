@@ -1,6 +1,8 @@
 📘 [English](README.md) | 📙 [Русский](README.ru.md)
 # Enter the Gungeon Character Randomizer 🎲
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A simple web-based character randomizer for *Enter the Gungeon*. Supports English and Russian languages.
 
 ## 🔧 Features
