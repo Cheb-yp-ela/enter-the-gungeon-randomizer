@@ -39,6 +39,14 @@ body {
   transform: scale(1.05);
 }
 
+#randomize {
+  position: fixed;
+  bottom: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
 /* Отдельное позиционирование кнопки смены языка */
 #lang-toggle {
   position: absolute;
