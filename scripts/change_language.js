@@ -3,9 +3,11 @@ let currentLang = 'eng';
 const translationsUI = {
     toc: { eng: 'Enter the Gungeon: Character Randomizer', rus: 'Enter the Gungeon: генератор персонажей' },
     langToggle: { eng: 'ENG', rus: 'RUS' },
-    resultLabel: { eng: "Result",rus: "Результат"
-  },
-};
+    resultLabel: { eng: "Result", rus: "Результат"},
+    author: {eng: "Development by Chebypela", rus: "Разработано Chebypela"},
+    randomize : {eng: "Randomize!", rus: "Сгенерировать!"}
+  };
+
 
 const translationsCharacters = {
   'label-paradox': { eng: 'Paradox', rus: 'Парадокс' },
@@ -28,8 +30,9 @@ function toggleLanguage() {
   // Переключение текста кнопки
   document.getElementById("lang-toggle").textContent = translationsUI.langToggle[currentLang];
 
-  // Перевод заголовка
+  // Интерфейс
   document.getElementById("toc").textContent = translationsUI.toc[currentLang];
+  document.getElementById("author").textContent = translationsUI.author[currentLang];
 
   // Перевод подписей чекбоксов
   document.getElementById("label-paradox").textContent = translationsCharacters['label-paradox'][currentLang];
