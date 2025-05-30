@@ -33,6 +33,7 @@ function toggleLanguage() {
   // Интерфейс
   document.getElementById("toc").textContent = translationsUI.toc[currentLang];
   document.getElementById("author").textContent = translationsUI.author[currentLang];
+  document.getElementById("randomize").textContent = translationsUI.randomize[currentLang];
 
   // Перевод подписей чекбоксов
   document.getElementById("label-paradox").textContent = translationsCharacters['label-paradox'][currentLang];
