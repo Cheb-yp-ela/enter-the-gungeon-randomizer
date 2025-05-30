@@ -52,7 +52,7 @@ function getRandom() {
     : "Result";  
 
   resultElement.textContent = `${resultLabel}: ${translatedCharacter}`;
-  const gifPath = `img/${next}.webp`;
+  const gifPath = `img/${next.toLowerCase()}.webp`;
   const characterGif = document.getElementById("character-gif");
   characterGif.src = gifPath;
 
