@@ -13,7 +13,7 @@ A simple web-based character randomizer for *Enter the Gungeon*. Supports Englis
 
 ## 🌐 Live Demo
 
-(Add link here if deployed, e.g. GitHub Pages)
+https://cheb-yp-ela.github.io/enter-the-gungeon-randomizer/
 
 ## 📁 Project Structure
 

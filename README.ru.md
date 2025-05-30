@@ -12,7 +12,7 @@
 
 ## Демонстрация
 
-*(Добавь ссылку на GitHub Pages, если публикуешь)*
+https://cheb-yp-ela.github.io/enter-the-gungeon-randomizer/
 
 ## Как использовать
 
